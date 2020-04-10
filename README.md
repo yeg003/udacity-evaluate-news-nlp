@@ -1,2 +1,2 @@
-# udacity-evulate-a-news-article-with-nlp
+# Udacity evaluate news with NLP API 
 Fourth project for the Udacity FrontEnd Developer Nanodegree.
