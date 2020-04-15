@@ -2,13 +2,13 @@
 
 ### Your project must:
 
-- [ ] Be set up with Webpack, Express, Node, and Sass, and Service Workers
+- [+] Be set up with Webpack, Express, Node, and Sass, and Service Workers
 
-- [ ] Have separate dev and prod configurations for Webpack
+- [+] Have separate dev and prod configurations for Webpack
 
-- [ ] Have the developer environment set up with the Webpack dev server
+- [+] Have the developer environment set up with the Webpack dev server
 
-- [ ] Have a minimum of one form field
+- [+] Have a minimum of one form field
 
 - [ ] Make one request to the Aylien API
 
