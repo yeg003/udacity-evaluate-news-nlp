@@ -1,6 +1,7 @@
 var requestPost = require('../server/handleRequest')
 var validateRequest = requestPost.validateInputRequest;
 var httpMocks = require('node-mocks-http');
+import "babel-polyfill"
 
 
 describe('Check if the function "validateRequest()" exists' , () => {

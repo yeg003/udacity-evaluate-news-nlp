@@ -1,5 +1,5 @@
 import { handleSubmit } from '../client/js/formHandler'
-
+import "babel-polyfill"
 
 describe('Check if the function "handleSubmit()" exists' , () => {
     test('It should return true', async () => {

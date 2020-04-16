@@ -1,4 +1,6 @@
-  const request = require('supertest');
+import "babel-polyfill"
+
+const request = require('supertest');
 const app = require('../server/app');
 
  describe('Check root path', () => {

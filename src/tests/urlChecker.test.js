@@ -1,4 +1,5 @@
 import {validURL} from '../client/js/urlChecker'
+import "babel-polyfill"
 
 
 describe('Check if the function "validURL()" exists' , () => {
