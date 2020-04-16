@@ -9,6 +9,6 @@ import './styles/base.scss'
 
 
 export{
-    urlChecker,
+    validURL,
     handleSubmit
 }

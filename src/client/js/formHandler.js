@@ -10,7 +10,7 @@ function handleSubmit(event) {
         console.log("::: FORM INPUT VALID :::")
         
         console.log("BUILDING REQUEST");
-        fetch('http://localhost:3000/article', {
+        fetch('http://localhost:8081/article', {
             method: 'POST',
             mode: 'cors',
             headers: {
@@ -23,7 +23,7 @@ function handleSubmit(event) {
             // print for debugging
             console.log(res); 
 
-            // Populate html with result
+            // Populates html with url information
             document.querySelector('section.url-results #polarity').innerHTML = res.polarity
             document.querySelector('section.url-results #subjectivity').innerHTML = res.subjectivity
             document.querySelector('section.url-results #polarity_confidence').innerHTML = res.polarity_confidence
@@ -32,10 +32,10 @@ function handleSubmit(event) {
         })
 
     }else{
-        // Display error message if URL is not valide
+        // Display error message if URL is not valid
         var error_section = document.querySelector('section.errors');
         var error = document.querySelector('section.errors #error');
-        error.innerHTML = "The URL:[" +JSON.stringify(input_url[0].value)+"] is not valide. Please enter a valid url"
+        error.innerHTML = "The URL:[" +JSON.stringify(input_url[0].value)+"] is not valid. Please enter a valid url"
         error_section.style.display = "block";
         
     } 
