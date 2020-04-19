@@ -3,6 +3,9 @@ Fourth project for the Udacity FrontEnd Developer Nanodegree.
 
 # Technologies Used:
 
+* HTML
+* CSS
+* Vanilla JavaScript
 * Webpack
 * Sass styles
 * Webpack Loaders and Plugins
